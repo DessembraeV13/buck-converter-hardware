@@ -8,7 +8,7 @@ Celem było stworzenie platformy sprzętowej zdolnej do wydajnej konwersji mocy,
 <div align="center">
   <img src="img/real_pcb_photo.png" alt="Zdjęcie zmontowanego prototypu" width="700"/>
   <br>
-  <em>Rys. 1: Zmontowany i uruchomiony prototyp przetwornicy.</em>
+  <em>Rys. 1. Zmontowany i uruchomiony prototyp przetwornicy.</em>
 </div>
 
 ---
@@ -39,7 +39,7 @@ Sekcja odpowiedzialna za główną konwersję energii. Zawiera kluczowe elementy
 <div align="center">
   <img src="img/schematic_power_stage.png" alt="Schemat stopnia mocy" width="800"/>
   <br>
-  <em>Rys. 2: Schemat ideowy stopnia mocy przetwornicy.</em>
+  <em>Rys. 2. Schemat ideowy stopnia mocy przetwornicy.</em>
 </div>
 
 #### 2. Układ Zasilania
@@ -52,19 +52,19 @@ Taka architektura znacząco poprawia sprawność i zarządzanie ciepłem w poró
 <div align="center">
   <img src="img/schematic_power_supply.png" alt="Schemat układu zasilania" width="800"/>
   <br>
-  <em>Rys. 3: Schemat ideowy sekcji zasilania.</em>
+  <em>Rys. 3. Schemat ideowy sekcji zasilania.</em>
 </div>
 
 #### 3. Mikrokontroler i Peryferia
 Logika urządzenia, oparta o mikrokontroler **ESP32-S2**. Ten blok zawiera również wszystkie interfejsy użytkownika i komunikacyjne, w tym:
 - Złącza do programowania i debugowania.
 - Diody LED i przyciski do interakcji z użytkownikiem.
-- **Transceiver magistrali CAN (TJA1051T)**, implementujący warstwę fizyczną dla niezawodnej komunikacji w standardach przemysłowych.
+- Transceiver magistrali CAN (TJA1051T), implementujący warstwę fizyczną dla niezawodnej komunikacji w standardach przemysłowych.
 
 <div align="center">
   <img src="img/schematic_mcu_control.png" alt="Schemat sekcji mikrokontrolera" width="800"/>
   <br>
-  <em>Rys. 4: Schemat ideowy sekcji sterowania z mikrokontrolerem i peryferiami.</em>
+  <em>Rys. 4. Schemat ideowy sekcji sterowania z mikrokontrolerem i peryferiami.</em>
 </div>
 
 ---
@@ -76,7 +76,7 @@ Projekt 4-warstwowej płytki PCB był kluczowym elementem projektu, mającym na 
 <div align="center">
   <img src="img/pcb_3d_render.png" alt="Render 3D zaprojektowanej płytki PCB" width="700"/>
   <br>
-  <em>Rys. 5: Render 3D finalnego projektu PCB.</em>
+  <em>Rys. 5. Render 3D finalnego projektu PCB.</em>
 </div>
 
 - **Warstwa 1 (Top):** Główne ścieżki prądowe, komponenty mocy, interfejs użytkownika.
